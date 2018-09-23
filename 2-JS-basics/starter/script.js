@@ -12,3 +12,7 @@ console.log(job);
 
 job = 'Teacher';
 console.log(job);
+
+var $3years = 3;
+var johnMark = "John and Mark";
+var if = 23;
