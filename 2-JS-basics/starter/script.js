@@ -24,6 +24,7 @@ var johnMark = "John and Mark";
 var if = 23;
 */
 
+
 /***************************
   Variable mutation and type coercion
 ***************************/
@@ -51,9 +52,11 @@ var lastName = prompt('What is his last Name?')
 console.log(firstName + ' ' + lastName);
 */
 
+
 /***************************
   Basic Operators
 ***************************/
+/*
 var year, yearJohn, yearMark;
 now = 2018;
 ageJohn = 28;
@@ -80,6 +83,53 @@ console.log(typeof ageJohn);
 console.log(typeof 'Mark is older than John');
 var x;
 console.log(typeof x);
+*/
+
+
+/***************************
+Operator precedence
+***************************/
+
+/*
+var now = 2018;
+var yearJohn = 1989;
+var fullAge = 18;
+
+// Multiple operators
+var isFullAge = now - yearJohn >= fullAge;
+console.log(isFullAge);
+
+// Grouping
+var ageJohn = now - yearJohn;
+var ageMark = 35;
+var average = (ageJohn + ageMark) / 2;
+
+// Multiple assignments
+var x, y;
+x = (3 + 5) * 4 - 6;
+console.log(x)
+
+console.log(x, y);
+
+// More operators
+x += 2;
+console.log(x)
+x += 10;
+console.log(x)
+x++;
+console.log(x)
+*/
+
+/***************************
+Coding Challenge 1
+***************************/
+var markMass = 71;
+var johnMass = 81;
+
+var markHeight = 1.557;
+var johnHeight = 1.707; 
+
+
 
 
 
