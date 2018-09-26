@@ -127,7 +127,19 @@ var markMass = 71;
 var johnMass = 81;
 
 var markHeight = 1.557;
-var johnHeight = 1.707; 
+var johnHeight = 1.707;
+
+var markBMI = markMass / (markHeight + markHeight); 
+var johnBMI = johnMass / (johnHeight + johnHeight);
+
+var markHigherBMI = markBMI > johnBMI;
+console.log('Is Mark\'s BMI higher than John\'s', markHigherBMI);
+
+// if (mark > john) {
+//   console.log("Well Damn");
+// } else {
+//  console.log("thought you knew");
+// }
 
 
 
