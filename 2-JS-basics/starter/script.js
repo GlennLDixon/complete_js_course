@@ -149,24 +149,36 @@ console.log('Is Mark\'s BMI higher than John\'s', markHigherBMI);
 If / else statements
 ***************************/
 
+// var firstName = 'John';
+// var civilStatus = 'single';
+
+// if (civilStatus === 'married') {
+//   console.log(firstName + ' is married!');
+// } else {
+//   console.log(firstName + ' will hopefully marry soon :)');
+// }
+
+// var isMarried = true;
+// if (isMarried) {
+//   console.log(firstName + ' is married');
+// } else {
+//   console.log(firstName + ' will hopefully marry soon :)')
+// }
+
+/***************************
+Boolean logic
+***************************/
+
 var firstName = 'John';
-var civilStatus = 'single';
+var age = 16;
 
-if (civilStatus === 'married') {
-  console.log(firstName + ' is married!');
+if (age < 13) {
+  console.log(firstName + ' is a boy.');
+} else if ( age >= 13 && age < 20) {
+  console.log(firstName + ' is a teenager.');
 } else {
-  console.log(firstName + ' will hopefully marry soon :)');
+  console.log(firstName + ' is a man.');
 }
-
-var isMarried = true;
-if (isMarried) {
-  console.log(firstName + ' is married');
-} else {
-  console.log(firstName + ' will hopefully marry soon :)')
-}
-
-
-
 
 
 
