@@ -214,8 +214,8 @@ switch (job) {
     case 'dog catcher':
         console.log(firstName + ' always out of breath');
         break;
-        default
-        console.log (firstName + ' Likes to harrass peopl')l
+        default:
+        console.log (firstName + ' Likes to harrass peopl');
       
 }
 
