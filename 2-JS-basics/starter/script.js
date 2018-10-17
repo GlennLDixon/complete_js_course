@@ -169,21 +169,67 @@ If / else statements
 Boolean logic
 ***************************/
 
-var firstName = 'John';
-var age = 16;
+// var firstName = 'John';
+// var age = 16;
 
-if (age < 13) {
-  console.log(firstName + ' is a boy.');
-} else if ( age >= 13 && age < 20) {
-  console.log(firstName + ' is a teenager.');
-} else {
-  console.log(firstName + ' is a man.');
+// if (age < 13) {
+//   console.log(firstName + ' is a boy.');
+// } else if ( age >= 13 && age < 20) {
+//   console.log(firstName + ' is a teenager.');
+// } else {
+//   console.log(firstName + ' is a man.');
+// }
+
+/**************************************
+SWITCH STATEMENTS AND TERNARY OPERATORS
+***************************************/
+
+var firstName = 'John';
+var age = 22;
+
+// Ternary operators 
+age >= 18 ? console.log(firstName + 'drinks beer')
+: console.log(firstName + 'drinks juice.');
+
+var drink = age >= 18 ? "beer" : "juice";
+
+// if (age >= 18) {
+//   var drink = 'beer';
+// } else {
+//   var drink = 'juice';
+// }
+
+// Switch statement
+var job = 'cop';
+switch (job) {
+    case 'artist':
+        console.log(firstName + ' paints beautiful pictures');
+        break;
+    case 'machine operator':
+        console.log(firstName + ' operates a robot');
+        break;
+    case 'developer':
+        console.log(firstName + ' create unigue websites for businesses');
+        break;
+    case 'dog catcher':
+        console.log(firstName + ' always out of breath');
+        break;
+        default
+        console.log (firstName + ' Likes to harrass peopl')l
+      
 }
 
-
-
-
-
-
-
+  switch (true) {
+    case age < 13:
+      console.log(firstName + ' is a boy.');
+      break;
+    case age >= 13 && age < 18:
+      console.log(firstName + ' is a teenager.');
+      break;
+    case age >= 20 && age < 30:
+      console.log(firstName + ' is a young man.');
+      break;
+    default:
+      console.log(firstName + ' is a man.');
+  }
 
