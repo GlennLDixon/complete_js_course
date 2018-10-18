@@ -183,7 +183,7 @@ Boolean logic
 /**************************************
 SWITCH STATEMENTS AND TERNARY OPERATORS
 ***************************************/
-
+/*
 var firstName = 'John';
 var age = 22;
 
@@ -232,4 +232,4 @@ switch (job) {
     default:
       console.log(firstName + ' is a man.');
   }
-
+*/
