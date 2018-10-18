@@ -241,6 +241,7 @@ Truthy and Falsy values and equality operators
 // falsy values: undefined, null, 0, '', NaN
 // truthy values: NOT falsy values
 
+/*
 var height;
 
 height = 23;
@@ -255,6 +256,21 @@ if (height || height === 0) {
 if (height == '23') {
   console.log('The == operator does type coercion');
 }
+*/
+
+/******************
+Coding Challenge 2
+******************/
+var marksTeam, johnsTeam, markTeamAv, johnTeamAv;
+
+marksTeam = 101 + 94 + 97;
+johnsTeam = 77 + 83 + 132;
+
+markTeamAv = marksTeam / 3;
+johnTeamAv = johnsTeam / 3;
+
+markTeamAv > johnTeamAv ? console.log('Mark has high point av') :
+markTeamAv < johnTeamAv ? console.log('John got the best of you') : console.log('it\'s a tie');
 
 
 
