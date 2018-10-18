@@ -261,16 +261,11 @@ if (height == '23') {
 /******************
 Coding Challenge 2
 ******************/
-var marksTeam, johnsTeam, markTeamAv, johnTeamAv;
+let markTeam = (101 + 94 + 97) /3;
+let johnTeam = (77 + 83 + 132) / 3;
 
-marksTeam = 101 + 94 + 97;
-johnsTeam = 77 + 83 + 132;
-
-markTeamAv = marksTeam / 3;
-johnTeamAv = johnsTeam / 3;
-
-markTeamAv > johnTeamAv ? console.log('Mark has high point av') :
-markTeamAv < johnTeamAv ? console.log('John got the best of you') : console.log('it\'s a tie');
+markTeam > johnTeam ? console.log('Mark has high point av') :
+markTeam < johnTeam ? console.log('John got the best of you') : console.log('it\'s a tie');
 
 
 
