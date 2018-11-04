@@ -261,19 +261,65 @@ if (height == '23') {
 /******************
 Coding Challenge 2
 ******************/
-let markTeam = (101 + 94 + 97) /3;
-let johnTeam = (77 + 83 + 132) / 3;
+// let markTeam = (101 + 94 + 97) /3;
+// let johnTeam = (77 + 83 + 132) / 3;
 
-markTeam > johnTeam ? console.log('Mark has high point av') :
-markTeam < johnTeam ? console.log('John got the best of you') : console.log('it\'s a tie');
+// markTeam > johnTeam ? console.log('Mark has high point av') :
+// markTeam < johnTeam ? console.log('John got the best of you') : console.log('it\'s a tie');
 
+/******************
+Functions
+******************/
 
+/*
+function calculateAge(birthYear) {
+    return 2018 - birthYear
+}
 
+var ageGlenn = calculateAge(1993);
+var ageCalvin = calculateAge(1988);
+var ageTobias = calculateAge(1990);
+console.log(ageGlenn, ageCalvin, ageTobias)
 
+function yearsUntilRetirement(year, firstName) {
+  var age = calculateAge(year);
+  var retirement = 65 - age;
+  
+  if(retirement > 0) {
+    console.log(firstName + ' retires in ' + retirement + ' years.');
+  } else {
+    console.log(firstName + ' is already retired.');
+  }
+}
 
+yearsUntilRetirement(1993, 'Glenn');
+yearsUntilRetirement(1949, 'Calvin');
+yearsUntilRetirement(1990, 'Tobias');
+*/
 
+/**********************************
+Function Statements and Expressions
+***********************************/
 
+//Function expression
+/*
+var whatDoYouDo = function(job, firstName){
+  switch(job) {
+    case 'teacher':
+      return firstName + 'teaches kids how to code';
+    case 'driver':
+      return firstName + ' drives a uber in Libson';
+    case 'designer':
+      return firstName + ' does something else';
+    default:
+      return firstName + ' does something else';
+  }
+}
 
+console.log(whatDoYouDo('teacher', 'Glenn'));
+console.log(whatDoYouDo('driver', 'Tobias'));
+console.log(whatDoYouDo('designer', 'Calvin'));
+*/
 
 
 
