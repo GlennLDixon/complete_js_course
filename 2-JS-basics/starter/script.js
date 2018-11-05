@@ -321,7 +321,66 @@ console.log(whatDoYouDo('driver', 'Tobias'));
 console.log(whatDoYouDo('designer', 'Calvin'));
 */
 
+/***********
+Arrays
+************/
 
+/*
+var names = ['Glenn', 'Calvin', 'Tobias'];
+var years = new Array(1990, 1969, 1948);
+
+console.log(name[0]);
+console.log(names.length);
+
+// Mutate array data
+names[1] = 'Ben';
+names[names.length] = 'Mary';
+console.log(names);
+
+// Different data types
+var glenn = ['Glenn', 'Smith', 1990, 'teacher', false];
+
+glenn.push('blue');
+glenn.unshift('Sr.');
+console.log(glenn);
+
+john.pop();
+john.pop();
+john.shift();
+console.log(john);
+
+console.log(john.indexOf(1990));
+
+var isDesigner = john.indexOf('designer') === -1 ? 'John is NOT a designer' : 'John is a designer';
+console.log(isDesigner);
+*/
+
+
+/******************
+Coding Challenge 3
+*******************/
+
+function tipCalculator(bill){
+  var percentage;
+  if(bill < 50) {
+    percentage = .2;
+  } else if (bill >= 50 && bill <= 200) {
+    percentage = .15;
+  } else {
+    percentage = .1;
+  }
+  return percentage * bill;
+}
+
+var bills = [124, 48, 268];
+var tips = [tipCalculator(bills[0]),
+            tipCalculator(bills[1]),
+            tipCalculator(bills[2])];
+
+var finalValues = [bills[0] + tips[0],
+                   bills[1] + tips[1],
+                   bills[2] + tips[2]];
+console.log(tips, finalValues);
 
 
 
